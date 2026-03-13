@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurboTunes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <section class="container-fluid">
+        <!-- row starts here -->
+         <div class="row">
+         <!-- column starts here -->
+          <div class="col-md-12">
+            <!-- the tag below carries the content of our navigation bar -->
+             <nav class="navbar navbar-expand-md navbar-light bg-light ">
+               <!-- the company name or logo -->
+               <a href="" class="navbar-brand">
+                  <b>TURBOTUNES</b>
+               </a>
+
+               <!-- a button to hold my navigation links when the page is opened on a small window -->
+                <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarcollapse"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- dic to hold my menu/link to diff pages -->
+                 <!-- the div starts here -->
+                  <div class="collapse navbar-collapse" id="navbarcollapse">
+                     <div class="navbar-nav">
+                     <a href="index1.html" class="nav-link ">Home</a>
+                     <a href="help.html" class="nav-link active">Help</a>
+                     <a href="contact.html" class="nav-link">Contant</a>
+                     <a href="abt.html" class="nav-link">About Us</a>
+                     <a href="signin.html" class="nav-link">Sign In</a> 
+                     <a href="signup.html" class="nav-link">Sign up</a>  
+                     </div>
+                  </div>
+                  <!-- the dic ends here -->
+             </nav>
+          </div>
+          <!-- end of column -->
+       </div>
+       <!-- end of row -->
+      </section>
+    <section class="container mt-5 bg-success">
+        <h2 class="text-center mb-4">Help & Support</h2>
+    
+        <div class="accordion" id="helpSection">
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">
+                        How can I buy a car from your website?
+                    </button>
+                </h2>
+                <div id="q1" class="accordion-collapse collapse" data-bs-parent="#helpSection">
+                    <div class="accordion-body">
+                        Browse our available cars, select the vehicle you want, and click the "Buy Now" button to proceed with the purchase process.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">
+                        Do you offer car financing options?
+                    </button>
+                </h2>
+                <div id="q2" class="accordion-collapse collapse" data-bs-parent="#helpSection">
+                    <div class="accordion-body">
+                        Yes, we offer flexible financing options through our trusted financial partners.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q3">
+                        Can I schedule a test drive?
+                    </button>
+                </h2>
+                <div id="q3" class="accordion-collapse collapse" data-bs-parent="#helpSection">
+                    <div class="accordion-body">
+                        Yes, you can schedule a test drive by contacting us through the contact page or visiting our showroom.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q4">
+                        How can I contact customer support?
+                    </button>
+                </h2>
+                <div id="q4" class="accordion-collapse collapse" data-bs-parent="#helpSection">
+                    <div class="accordion-body">
+                        You can contact us through email, phone, or the contact form available on our website.
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <section class="row text-white bg-success p-4">
+        <!-- my columns starts here -->
+        <!-- column 1 -->
+         <div class="col-md-4">
+           <h4 class="text-center">About us</h4>
+           <p class="text-black">At "TurboTunes" we have a large number of quality used cars, trucks and vans with more arriving everyday.
+              Below average prices, to suit your budget.
+              Every car has multiple pictures so you can really see what you are buying.
+              We will respond to any questions you may have quickly.
+              We are very experienced in shipping internationally. Our shipping partners are ready to send your vehicle to you immediately.
+              There is a professional mechanic on our staff to check vehicles; we also offer a tuning service.
+              Our professional commercial vehicle branch provide our trucks and vans.
+              We pride ourselves in providing a reliable service, we have had no problems with our transactions throughout the history of our company.
+              </p>
+
+         </div>
+         <div class="col-md-4">
+           <h4 class="text-center">Contact Us</h4>
+           <form>
+              <input type="email" placeholder="Enter your email..."
+              class="form-control">
+              <br/>
+              <textarea placeholder="Leave a comment" class="form-control" rows="7"></textarea>
+              <br>
+              <input type="button" value="Send message" class="btn btn-outline-success">
+           </form>
+         </div>
+         <div class="col-md-4">
+           <h4 class="text-center text-white">Stay Connected</h4>
+
+           <a href="https://www.facebook.com">
+              <img src="/Tumaini/images/fb.png" alt="facebook icon">
+           </a>
+           <a href="https://www.instagram.com">
+              <img src="/Tumaini/images/in.png" alt="instagram icon">
+           </a>
+           <a href="https://www.twitter,com">
+              <img src="/Tumaini/images/x.png" alt="x icon">
+           </a>
+
+           <p>Feel free to contact us if you need help or more information about our services. We are here to support you..</p>
+
+         </div>
+      </section>
+</body>
+</html>

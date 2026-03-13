@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURBOTUNES CAR SHOP</title>
+    <!-- adding icon -->
+     <head>
+  <title>Car Shop</title>
+  <link rel="icon" type="image/png" href="/images/turbo.png">
+</head>
+    <!-- linking my css file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- linking my javascript -->
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+    <!-- all the conent of the app -->
+     <!-- navigation starts here -->
+      <section class="container-fluid">
+        <!-- row starts here -->
+         <div class="row">
+         <!-- column starts here -->
+          <div class="col-md-12">
+            <!-- the tag below carries the content of our navigation bar -->
+             <nav class="navbar navbar-expand-md navbar-light bg-light ">
+               <!-- the company name or logo -->
+               <a href="" class="navbar-brand">
+                  <b>TURBOTUNES</b>
+               </a>
+
+               <!-- a button to hold my navigation links when the page is opened on a small window -->
+                <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarcollapse"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- dic to hold my menu/link to diff pages -->
+                 <!-- the div starts here -->
+                  <div class="collapse navbar-collapse" id="navbarcollapse">
+                     <div class="navbar-nav">
+                     <a href="index.html" class="nav-link active">Home</a>
+                     <a href="help.html" class="nav-link">Help</a>
+                     <a href="contact.html" class="nav-link">Contant</a>
+                     <a href="abt.html" class="nav-link">About Us</a>
+                     <a href="signin.html" class="nav-link">Sign In</a>
+                     <a href="signup.html" class="nav-link">Sign Up</a>
+                     </div>
+                  </div>
+                  <!-- the dic ends here -->
+             </nav>
+          </div>
+          <!-- end of column -->
+       </div>
+       <!-- end of row -->
+      </section>
+      <!-- end of navigation section -->
+
+      <!-- carousel starts here -->
+        <section class="row">
+      <div class="col-md-12">
+         <!-- div to carry the sections of a carousel -->
+          <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+            <!-- this div is carrying the wrapper class -->
+             <div class="carousel-inner" style="max-height: 400px;">
+               <!-- image items -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center">
+                  <img src="/images/banner.png" alt="slide1 image" height="400px" width="100%" object-fit="cover">
+                   </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                  <img src="/images/b2.jpg" alt="slide2 image" >
+                   </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                  <img src="/images/b3.jpg" alt="slide3 image" >
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                  <img src="/images/b1.jpg" alt="slide4 image" >
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                  <img src="/images/b5.jpg" alt="slide5 image" >
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                  <img src="/images/b6.jpg" alt="slide6 image" >
+                  </div>
+                </div>
+             </div>
+             <!-- end of images section -->
+             
+             <!-- div with controller class -->
+              <a href="#mycarousel" 
+              data-bs-slide="prev"
+              class="carousel-control-prev">
+               <span class="carousel-control-prev-icon bg-success"></span>
+              </a>
+              <a href="#mycarousel"
+              data-bs-slide="next"
+              class="carousel-control-next">
+               <span class="carousel-control-next-icon bg-success"></span>
+              </a>
+              <!-- end of controller class -->
+          </div> 
+          <!-- end of wrapper class -->
+      </div>
+     </section>
+      <!-- carousel section end here -->
+
+      <!-- this section contains both our grid system and card -->
+      <section class="container-fluid">
+        <!-- row 1 starts here -->
+         <div class="row text-center">
+            <!-- column 1 starts here -->
+             <b class="bg-warning"><i>EVERYTHING VROOM!!!</i></b>
+             <div class="col">
+                <img src="/images/5b650bbd6cd64461d25d7e3c6ce75f70.jpg" alt="Audi" height="250px" width="250px">
+
+                <h6>Mercedes-Benz</h6>
+                <p>Mercedes-Benz, commonly referred to simply as Mercedes and occasionally as Benz, is a German automotive brand that was founded in 1926. Mercedes-Benz AG is based in Stuttgart, Baden-Württemberg, Germany.</p>
+
+                <b class="text-black">Ksh 7,900,000</b>
+                <br>
+                <span class="badge bg-danger">5% OFF</span>
+             </div>
+             <!-- end of column 1 -->
+              <!-- column 2 -->
+               <div class="col">
+                <img src="/images/a352823d5286936bb7045e608c5ee911.jpg" alt="vroom" height="250px" width="250px">
+
+                <h6>Audi R8</h6>
+                <p>The Audi R8 is a legendary mid-engine supercar produced from 2006 to March 2024, known for blending exotic, daily-drivable performance with Audi's quattro all-wheel-drive system. </p>
+                
+                <b class="text-black">Ksh 6,000,300</b>
+                <br>
+                <span class="badge bg-danger">12% OFF</span>
+               </div>
+               <!-- end of column 2 -->
+                <!-- column 3 -->
+                 <div class="col">
+                    <img src="/images/59510ae3f24f06c13bbc46601cd1624a.jpg" alt="Aston Martin" height="250px" width="250px">
+
+                    <h6>Aston Martin</h6>
+
+                    <p>The 2025 Aston Martin Vanquish returns as the brand's flagship Super GT, featuring a potent 5.2-litre twin-turbo V12 engine producing 835 PS (824 hp) and 1000 Nm of torque. </p>
+
+                    <b class="text-black">Ksh 12,700,100</b>
+                    <br>
+                    <span class="badge bg-danger">5% OFF</span>
+                 </div>
+                 <!-- end of column 3 -->
+                  <!-- columnn 4 -->
+                   <div class="col">
+                    <img src="/images/af6ae5b0188274c21cecc510c4f842e7.jpg" alt="Extra" height="250px" width="250px">
+
+                    <h6>Mercedes Mayback</h6>
+
+                    <p>Mercedes-Maybach is the ultra-luxury, top-tier brand of Mercedes-Benz, known for bespoke, high-performance vehicles featuring advanced technology and superior comfort.</p>
+
+                    <b class="text-black">Ksh 30,000,300</b>
+                    <br>
+                    <span class="badge bg-danger">20% OFF</span>
+                   </div>
+                   <!-- end of column 4 -->
+         </div>
+         <!-- end of row 1 -->
+         <hr>
+
+         <!-- row 2 starts here -->
+         <div class="row text-center">
+          <!-- column 1 starts here -->
+           <div class="col">
+              <img src="/images/64e36b9e3cba1ba550c5736756770605.jpg" alt="Audi" height="250px">
+
+              <h6>Lamborghini</h6>
+              <p>The Lamborghini Revuelto is a high-performance electrified vehicle (HPEV) hybrid super sports car and the successor to the Aventador, featuring a 6.5-liter V12 engine combined with three electric motors to produce 1,015 CV (1,001 hp). </p>
+
+              <b class="text-black">Ksh 7,900,000</b>
+              <br>
+              <span class="badge bg-danger">5% OFF</span>
+           </div>
+           <!-- end of column 1 -->
+            <!-- column 2 -->
+             <div class="col">
+              <img src="/images/bde17675914cd1b7003722eae9abd0ec.jpg" alt="vroom" height="250px" width="250px">
+
+              <h6>Bugatti Tourbillion</h6>
+              <p>The Bugatti Tourbillon is a new $4 million (approx. €3.8M) plug-in hybrid hypercar succeeding the Chiron, unveiled in June 2024 and featuring a naturally aspirated V16 engine combined with electric motors for a total of 1,800 horsepower.</p>
+              
+              <b class="text-black">Ksh 300,700,300.99</b>
+              <br>
+              <span class="badge bg-danger">12% OFF</span>
+             </div>
+             <!-- end of column 2 -->
+              <!-- column 3 -->
+               <div class="col">
+                  <img src="/images/e6b1372c24878aeb577c25cf10f60905.jpg" alt="Beamer" height="250px" width="250px">
+
+                  <h6>BMW E36</h6>
+
+                  <p>BMW E36 is known for its balanced handling, iconic quad headlights, and diverse body styles including coupe, saloon, convertible, compact, and touring.  </p>
+
+                  <b class="text-black">Ksh 12,700,100</b>
+                  <br>
+                  <span class="badge bg-danger">5% OFF</span>
+               </div>
+               <!-- end of column 3 -->
+                <!-- columnn 4 -->
+                 <div class="col">
+                  <img src="/images/bmw.jpg" alt="Pro cooker" height="250px" width="250px">
+
+                  <h6>BMW X6S</h6>
+
+                  <p>The BMW X6 is a luxury midsize "Sports Activity Coupe" (SAC) known for its sloping roofline, blending SUV utility with coupe styling.</p>
+
+                  <b class="text-black">Ksh 30,000,300</b>
+                  <br>
+                  <span class="badge bg-danger">20% OFF</span>
+                 </div>
+                 <!-- end of column 4 -->
+       </div>
+         <!-- end of row 2 -->
+        <hr>
+
+        <!-- start of row 3 -->
+         <h3 style="text-decoration: overline;"><b>Japan Models</b></h3>
+         <div class="row text-center">
+
+            <!-- column 1 -->
+             <div class="col">
+                <img src="/images/japan1.jpg" alt="japanese" height="250px" width="250px">
+                <h6>Toyota Fortuner</h6>
+                <p>The Toyota Fortuner is a rugged, 7-seater body-on-frame SUV built on the Hilux platform, favored for its off-road capability, reliability, and high resale value.</p>
+
+                <b class="text-black">Ksh 13,800,999</b>
+                <br>
+                <span class="badge bg-danger">20% OFF</span>
+             </div>
+            <!-- end of column 1 -->
+
+            <!-- start of column 2 -->
+             <div class="col">
+                <img src="/images/japan2.jpg" alt="toyota" height="250px" width="250px">
+                <h6>Toyota Rav4</h6>
+
+                <p>The 2026 Toyota RAV4 is a top-selling compact crossover SUV featuring a standard 2.5L four-cylinder hybrid powertrain (226-236 hp) and available AWD.</p>
+
+                <b class="text-black">Ksh 12,999,300</b>
+                <br>
+                <span class="badge bg-danger">0% OFF</span>
+             </div>
+            <!-- end of column 2 -->
+
+            <!-- column 3 -->
+             <div class="col">
+                <img src="/images/japan3.jpg" alt="Plain Double Sided" height="250px" width="250px">
+                <h6>Toyota Harrier</h6>
+                <p>The Toyota Harrier is a popular, luxurious mid-size crossover SUV, with the latest XU80 series</p>
+
+                <b class="text-black">ksh 3,000,000</b>
+                <br>
+                <span class="badge bg-danger">10% OFF</span>
+             </div>
+            <!-- end of column 3 -->
+
+            <!-- column 4 -->
+             <div class="col">
+                <img src="/images/japan4.jpg" alt="Good Quality" height="250px" width="250px">
+              <h6>Toyota Prado</h6>
+
+                <p>The Toyota Land Cruiser Prado is a durable, mid-size luxury SUV known for exceptional off-road capabilities and reliability, built on a ladder-frame chassis.</p>
+
+                <b class="text-black">Ksh 5,000,000</b>
+                <br>
+                <span class="badge bg-danger">30% OFF</span>
+             </div>
+            <!-- end of column 4 -->
+         </div>
+         <!-- end of row 3 -->
+    </section>
+      <!-- end of grid and card section -->
+
+      <!-- section next to the footer -->
+      <section class="row text-white bg-success p-4">
+         <!-- my columns starts here -->
+         <!-- column 1 -->
+          <div class="col-md-4">
+            <h4 class="text-center">About us</h4>
+            <p class="text-black">At "TurboTunes" we have a large number of quality used cars, trucks and vans with more arriving everyday.
+               Below average prices, to suit your budget.
+               Every car has multiple pictures so you can really see what you are buying.
+               We will respond to any questions you may have quickly.
+               We are very experienced in shipping internationally. Our shipping partners are ready to send your vehicle to you immediately.
+               There is a professional mechanic on our staff to check vehicles; we also offer a tuning service.
+               Our professional commercial vehicle branch provide our trucks and vans.
+               We pride ourselves in providing a reliable service, we have had no problems with our transactions throughout the history of our company.
+               </p>
+
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-center">Contact Us</h4>
+            <form>
+               <input type="email" placeholder="Enter your email..."
+               class="form-control">
+               <br/>
+               <textarea placeholder="Leave a comment" class="form-control" rows="7"></textarea>
+               <br>
+               <input type="button" value="Send message" class="btn btn-outline-success">
+            </form>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-center text-white">Stay Connected</h4>
+
+            <a href="https://www.facebook.com">
+               <img src="/Tumaini/images/fb.png" alt="facebook icon">
+            </a>
+            <a href="https://www.instagram.com">
+               <img src="/Tumaini/images/in.png" alt="instagram icon">
+            </a>
+            <a href="https://www.twitter,com">
+               <img src="/Tumaini/images/x.png" alt="x icon">
+            </a>
+
+            <p>Feel free to contact us if you need help or more information about our services. We are here to support you..</p>
+
+          </div>
+       </section>
+      <!-- end of section next to footer -->
+
+      <!-- footer section starts here -->
+       <footer>
+        <div class="row bg-dark text-white">
+            <div class="col-md-4">
+                <b class="p-4">Stay in touch with us.</b>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-12 text-center p-4">
+                <b><data>Developed by FEZZIM CHARLIE&copy; 2026. All rights reserved.</data></b>
+            </div>
+        </div>
+       </footer>
+      <!-- footer sectin ends here -->
+    
+</body>
+</html>
